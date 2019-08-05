@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Shrikhand&display=swap");
+
+* {
+  font-family: "Shrikhand", cursive;
+  padding: 0.1em;
+}
+
+body {
+  background-image: url(http://madewithmagic.co/wp-content/uploads/2018/03/blue-textured-wallpaper-abstract-light-blue-hand-drawn-pattern-waves-background-seamless-pattern-can-be-used-for-wallpaper-pattern-fills-web-page-background-surface-textures-pale-blue-textured-wallpap.jpg);
+}
+
+h1 {
+  color: rgb(19, 36, 19);
+  display: flex;
+  justify-content: center;
+  text-shadow: 7px 5px 9px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  background-color: rgba(118, 166, 201, 0.685);
+}
+.ppal {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+  padding: 1%;
+}
+.container {
+  background-color: rgb(208, 208, 238);
+  border-radius: 9%;
+  margin: 2%;
+}
+.profile {
+  width: 12%;
+  height: auto;
+  border-radius: 9%;
+  border: 4px solid rgba(20, 103, 136, 0.95);
+  text-align: left;
+}
+.shop {
+  text-align: center;
+  width: 12%;
+  border-radius: 9%;
+  height: auto;
+  border: 4px solid rgba(20, 103, 136, 0.95);
+  background-color: white;
+  align-items: baseline;
+}
+
+.shopingcar {
+  max-width: 100%;
+  position: auto;
+}
+
+p {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-brand {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(118, 166, 201, 0.685);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.card-brand-title {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.card-brand-info {
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  margin: 0 0 10px 0;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.card-brand-container {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+  margin: 2px;
+  border: 2px solid rgba(0, 0, 0, 0.95);
+}
+
+.order-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.order-container {
+  display: grid;
+  grid-template-columns: 6fr;
+}
+
+.order-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.imagen {
+  text-align: center;
+  width: 15%;
+  height: auto;
+}
